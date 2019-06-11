@@ -1,4 +1,4 @@
-# The Official Sysdata Kotlin Style Guide (in progress)
+# The Official Sysdata Kotlin Style Guide 
 
 This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our tutorials consistent.
 
@@ -9,6 +9,7 @@ Our overarching goals are __conciseness__, __readability__ and __simplicity__.
 
 This style-guide is somewhat of a mash-up between the existing Kotlin language style guides, and a tutorial-readability focused Swift style-guide. The language guidance is drawn from: 
 
+- The [Kotlin Style Guide](https://github.com/raywenderlich/kotlin-style-guide)
 - The [Android Kotlin style guide](https://android.github.io/kotlin-guides/style.html)
 - The [Kotlin Coding Conventions](https://kotlinlang.org/docs/reference/coding-conventions.html) 
 - The [Android contributors style guide](https://source.android.com/source/code-style.html)
@@ -181,8 +182,6 @@ data class Person(val name: String)
 
 ### Enum Classes
 
-**TODO: UPDATE FOR KOTLIN** *(This is java-only and may not be true with Kotlin)*
-
 Enum classes should be avoided where possible, due to a large memory overhead. Static constants are preferred. See http://developer.android.com/training/articles/memory.html#Overhead for further details.
 
 Enum classes without methods may be formatted without line-breaks, as follows:
@@ -320,7 +319,7 @@ when (anInput) {
 
 ## Types 
 
-Always use Kotlin's native types when available. Kotlin is JVM-compatible so **[TODO: more info]**
+Always use Kotlin's native types when available.
 
 ### Type Inference
 
@@ -346,9 +345,6 @@ Constants are defined using the `val` keyword, and variables with the `var` keyw
 
 *Tip*: A good technique is to define everything using `val` and only change it to `var` if the compiler complains!
 
-### Companion Objects
-
-** TODO: A bunch of stuff about companion objects **
 
 ### Nullable Types
 
