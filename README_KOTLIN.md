@@ -41,8 +41,6 @@ This style-guide is somewhat of a mash-up between the existing Kotlin language s
 - [Types](#types)
   + [Type Inference](#type-inference)
   + [Constants vs. Variables](#constants-vs-variables)
-  + [Companion Objects](#companion-objects)
-  + [Optionals](#optionals)
 
 
 
